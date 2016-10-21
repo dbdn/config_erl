@@ -1,0 +1,12 @@
+{application, ju_dbdn,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ju_dbdn_app, []}},
+  {env, []}
+ ]}.
